@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-firebase-26e0c": {
+      "hosting": {
+        "angular-firebase": [
+          "angular-firebase-26e0c"
+        ]
+      }
+    }
+  }
+}

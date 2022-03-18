@@ -1,0 +1,36 @@
+// menu section
+mat-nav-list a mat-icon{
+  margin: 0 20px 0 5px;
+}
+
+mat-nav-list a span{
+  width: 100px;
+}
+
+mat-nav-list a::before{
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  left: 3px;
+  background: rgb(48, 48, 48);
+  transition: all .2s;
+  opacity: 0;
+  transform: scale(0);
+}
+
+mat-nav-list a:hover:before{
+  opacity: .7;
+  transform: scale(.5);
+}
+
+mat-nav-list a.selected::before{
+  opacity: 1;
+  transform: scale(1);
+}
+
+// for main tag
+mat-sidenav-content{
+  height: 100vh;
+  overflow-y: auto;
+}

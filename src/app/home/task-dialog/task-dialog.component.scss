@@ -1,0 +1,12 @@
+:host{
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.align-items-between{
+    justify-content: space-between;
+}
